@@ -1,0 +1,101 @@
+/* ===Author="NilsPape"===*/
+
+/*	These are the colors of the whole Stylesheet.  */
+color {
+	-black : #000000;
+	-Gray : #B1B2B2;
+	-blackGreen : #17252A;
+	-DarkGreen : #2B7A78;
+	-LightGreen : #3AAFA9;
+	-TransparentGreen : #DEF2F1;
+	-White : #FEFFFF;
+	-Red : #FF0000;
+}
+
+#HSB-Button{}
+
+#HSB-MainViewButton{}
+
+#HSB-
+
+#HSB-ProgressBar{}
+
+#HSB-TransparentLabel{}
+
+#HSB-TextBox{}
+
+#HSB-TransparentTextBox{}
+
+#HSB-ComboBox{}
+
+
+/*
+ * ===========
+ * BUTTONS
+ * ===========
+ * 
+ */
+.button {
+	-fx-background-color : --black;
+}
+.button:default{
+	-fx-background-color : ;
+}
+.button:cancel{
+	-fx-background-color : ;
+}
+
+.button:focused {
+	-fx-color : ;
+   -fx-background-color : ;
+   -fx-focus-color : ;
+}
+.button:hover {
+    -fx-color: ;
+	-fx-inner-border : ;
+	-fx-body-color : ;
+}
+
+.button:armed {
+    -fx-color: ;
+}
+
+
+.toggle-button{
+	-fx-background-color : ;
+}
+
+.toggle-button:selected{
+	-fx-background-color : ;
+}
+
+.menu-button{
+	-fx-background-color : ;
+}
+
+.split-menu-button{
+	-fx-background-color : ;
+}
+
+.split-menu-button>*.label{
+	-fx-background-color : ;
+}
+
+.split-menu-button>*.arrow-button{
+	-fx-background-color : ;
+}
+
+
+/*
+ * ===========
+ * LOGOS
+ * ===========
+ * 
+ */
+
+ .std-logo{
+	border: 1px solid --green;
+		
+	 
+ }
+ 
