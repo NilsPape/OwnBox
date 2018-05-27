@@ -19,9 +19,11 @@
  * ===========
  * 
  */
+ 
+/*TODO: Set colors according to looks*/
 .MenuButton {
-	-fx-background-color : var(--);
-	-fx-border: 0.3vmin solid var(--);
+	-fx-background-color : var(--lightGreen);
+	-fx-border: 0.3vmin solid var(--darkGreen);
 	-fx-font-size: 6vmin;
 	
 }
@@ -34,8 +36,8 @@
 
 .button:focused {
 	-fx-color : ;
-   -fx-background-color : ;
-   -fx-focus-color : ;
+	-fx-background-color : ;
+	-fx-focus-color : ;
 }
 .button:hover {
     -fx-color: ;
@@ -56,21 +58,7 @@
 	-fx-background-color : ;
 }
 
-.menu-button{
-	-fx-background-color : ;
-}
 
-.split-menu-button{
-	-fx-background-color : ;
-}
-
-.split-menu-button>*.label{
-	-fx-background-color : ;
-}
-
-.split-menu-button>*.arrow-button{
-	-fx-background-color : ;
-}
 
 
 /*
@@ -79,7 +67,8 @@
  * ===========
  * 
  */
-
+ 
+ /*TODO: determine wether url will be set in fxml/css/javacode*/
  .std-logo{
 	-fx-background-image: url('HSB_Logo.jpg');
     -fx-background-position: 90%;
