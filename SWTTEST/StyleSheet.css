@@ -1,33 +1,17 @@
 /* ===Author="NilsPape"===*/
 
 /*	These are the colors of the whole Stylesheet.  */
-color {
-	-black : #000000;
-	-Gray : #B1B2B2;
-	-blackGreen : #17252A;
-	-DarkGreen : #2B7A78;
-	-LightGreen : #3AAFA9;
-	-TransparentGreen : #DEF2F1;
-	-White : #FEFFFF;
-	-Red : #FF0000;
+:root {
+	--black : #000000;
+	--Gray : #B1B2B2;
+	--blackGreen : #17252A;
+	--darkGreen : #2B7A78;
+	--lightGreen: #00FF00;
+	--lightBlue : #3AAFA9;
+	--transparentGreen : #DEF2F1;
+	--white : #FEFFFF;
+	--red : #FF0000;
 }
-
-#HSB-Button{}
-
-#HSB-MainViewButton{}
-
-#HSB-
-
-#HSB-ProgressBar{}
-
-#HSB-TransparentLabel{}
-
-#HSB-TextBox{}
-
-#HSB-TransparentTextBox{}
-
-#HSB-ComboBox{}
-
 
 /*
  * ===========
@@ -35,8 +19,11 @@ color {
  * ===========
  * 
  */
-.button {
-	-fx-background-color : --black;
+.MenuButton {
+	-fx-background-color : var(--);
+	-fx-border: 0.3vmin solid var(--);
+	-fx-font-size: 6vmin;
+	
 }
 .button:default{
 	-fx-background-color : ;
@@ -94,8 +81,16 @@ color {
  */
 
  .std-logo{
-	border: 1px solid --green;
-		
-	 
- }
+	-fx-background-image: url('HSB_Logo.jpg');
+    -fx-background-position: 90%;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+ .std-logo-png{
+	-fx-background-image: url('HSB_Logo.png');
+    -fx-background-position: 90%;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
  
